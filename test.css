@@ -1,0 +1,612 @@
+/*Header*/
+
+html {
+    font-family: "Opensans", sans-serif;
+    font-size: 16px;
+  }
+  
+  /*********** Navigation ***********/
+  
+  header {
+    padding: 16px 24px;
+    max-width: 100%;
+    background-color: hsl(71, 0%, 98%);
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #c6c1c1;
+    position: fixed;
+  }
+  header .content {
+    display: flex;
+    align-items: center;
+    padding: 0px 24px 0px 24px;
+  }
+  header .logo {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+   }
+   header .logotextgray{
+    color: #263238;
+    }
+  header .content {
+    display: flex;
+    align-items: center;
+    margin: 0 24px 0 24px;
+  }
+  
+  header .content a {
+    text-decoration: none;
+  }
+  
+  header .content img{
+    margin: auto;
+    vertical-align: middle; 
+    display: inline-block;
+  }
+  header .logotextgray{
+  color: #263238;
+  }
+  
+  header .logotextlightgray{
+    color: #607d8b;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    padding-left: 16px;
+  }
+  
+  nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #000a12;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #6a6f8c;
+  }
+  
+  /************** general styles ********************/
+  
+  .mobile {
+    display: none;
+  }
+  
+  .mobile-image{
+    display: none;
+  }
+  
+  .desktop-image{
+    display: block;
+  }
+  
+  .grey-background {
+    background-color: #eceff1;
+  }
+  .grey-background-desktop {
+    background-color: none;
+  }
+  .grey-background-desktop:hover {
+    background-color: #eceff1;
+  }
+  
+  hr {
+    border-top: 4px #535353;
+  }
+  
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  .right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  a {
+    color: #0277bd;
+  }
+  
+  p {
+    font-size: medium;
+    color: #6d6d6d;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  h4 {
+    color: #455a64;
+    font-weight: 600;
+    font-size: large;
+  }
+  
+  /*********** Hero Image Section ***********/
+  
+  .startbutton {
+    border: none;
+    background-color: #455a64;
+    align-items: center;
+    width: 80%;
+    height: 42px;
+    margin-top: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .startbutton:hover {
+    background-color: #78909c;
+  }
+  
+  #feature-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 32px;
+  }
+  .right-side-featured {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  .learn {
+    font-size: 2rem;
+    color: #373737;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .learn-more {
+    font-weight: normal;
+    font-size: 1.125rem;
+  }
+  
+  .information-banner { 
+  max-width:100%;
+  max-height:100%;
+  }
+  
+  /*************  Middle section ****************/
+  
+  
+  #middle-section {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  #middle-section h2 {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    color: #455a64; 
+  }
+  
+  .quote {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 0.9375rem;
+  }
+  
+  .info-panes {
+    display: flex;
+  }
+  
+  .info-panes:hover {
+    background-color: #eceff1;
+  }
+  
+  .info-panes-text {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+  }
+  
+  .info-panes-text-1 {
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: 0;
+    }
+  
+  .info-image {
+    max-width:100%;
+    max-height:100%;
+    }
+  
+  .info-panes .image{
+    width: 35%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+  }
+  
+  .info-panes .image-1{
+    width: 35%;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  
+  .info-panes h4 {
+    color: #455a64;
+    font-weight: 600;
+    font-size: large;
+    margin-bottom: 0;
+    margin-top: 0;
+    }
+    
+  
+    /*************  Start learning section ****************/
+  
+  
+  #start-learning {
+    padding-top: 32px;
+    padding-right: 72px;
+    padding-bottom: 32px;
+    padding-left: 72px;
+    background-color: #eceff1;
+  }
+  
+  .start-learning-heading{
+    text-align: center;
+    margin-bottom: 32px;
+    color: #455a64;
+    }
+  
+  .start-learning-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 30%;
+    align-items: center;
+  }
+  
+  .course-software {
+    width: 300px;
+    height: auto;  
+  }
+  
+  .content-container {
+    width: 300px;
+    background-color: white;
+    min-height: 190px; 
+    transition: box-shadow .3s;
+  }
+  
+  .hover-effect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow .3s;
+  }
+  
+  .hover-effect:hover {
+    box-shadow: 0 0 50px rgba(33,33,33,.2); 
+  }
+  
+  .spacing {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    line-height: 16px;
+  }
+  
+  .line-height {
+    line-height: 24px;
+  }
+  
+  .course {
+    width: 300px;
+    height: auto;
+  }
+  
+  /************** Bottom section ************/
+  
+  #bottom-section {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 24px;
+  }
+  
+  .thesis-exhibit-heading{
+    text-align: center;
+    margin-bottom: 32px;
+    margin-top: 0;
+    color: #455a64;
+  }
+  
+  .thesis-exhibit-content{
+    display: flex;
+  }
+  
+  .exhibit-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  .video{
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  
+  .footer {
+    display: flex;
+    padding-top: 16px;
+    margin-bottom: 16px;;
+  }
+  
+  .footer-left {
+  flex-grow: 2;
+  color: #535353;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 400;
+  margin-left: 24px;;
+  }
+  
+  .footer-right {
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  .footer-link {
+    color: #535353;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 400;
+    margin-right: 16px;
+  }
+  
+  /************** Mobile version ************/
+  
+  /*********** Navigation ***********/
+  
+  @media only screen and (max-width: 768px) {
+  
+  header .logo {
+    display: none;
+  }
+  
+  header .logotextgray{
+    display: none;  
+  }
+  
+  header .logotextlightgray{
+    display: none;  
+  }
+  
+  header .mobile {
+    display: block;
+    width: 100%;
+  }
+  
+  header .content {
+    padding: .5rem 0;
+  }
+  
+  header .mobile ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+  }
+  
+  header .mobile li {
+    padding: 0;
+  }
+  
+  /*********** Hero Image section ***********/
+  
+  #feature-section{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 64px;
+    
+  }
+  .right-side-featured{
+    width: 100%;
+  
+  }
+  
+  .right-side-featured .learn {
+    font-size: 2rem;
+    color:  #373737;
+    margin-bottom: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+  }
+  
+  .right-side-featured .learn-more {
+    font-weight: normal;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+  }
+  
+  .startbutton {
+    border: none;
+    background-color: #455a64;
+    width: 60%;
+    height: 42px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+  }
+  
+  .information-banner {
+    max-width:100%;
+    max-height:100%;
+    margin-bottom: 32px;
+  }
+  
+  .left-side {
+    width: 100%;
+  }
+  
+  .right-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #middle-section .left-side {
+    display: none;
+  }
+  
+  /*********** Middle section ***********/
+  .grey-background-desktop {
+    background-color: #ffffff;
+  }
+  
+  #middle-section .right-side .info-panes {
+    flex-direction: column;
+  }
+  
+  #middle-section .right-side .info-panes {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .mobile-image{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .desktop-image{
+    display: none;
+  }
+  
+  .info-panes-text {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    margin-top: 0;
+  }
+  
+  .info-panes-text-1 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    }
+    
+  .info-panes .image{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+  }
+  
+  .info-panes .image-1{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+  }
+  
+  .info-panes h4 {
+    margin-top: 0px;
+  }
+  
+  #start-learning {
+  margin-top: 32px;
+  }
+  
+  .info-panes-spacer{
+    margin-top: 0px;
+  }
+  
+  /*********** Bottom section ***********/
+  
+  #bottom-section {
+    padding-top: 32px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    }
+  
+  #bottom-section .video {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  
+  .thesis-exhibit-heading{
+    margin-bottom: 16px;
+    }
+  
+  .exhibit-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+  
+  .footer-left {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .desktop {
+    display: none;
+  }
+  }
+  
+  
